@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 150px;
+    padding: 10px;
+    color: white;
+}
+.navbar ul li{
+    margin-left: 50px;
+}
+.navbar header {
+margin-left: 50px
+}
+.navbar .links{
+    text-decoration: none ;
+    color: inherit;
+}
+
+.dropdown li select {
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: none    ;
+    font-family: initial;
+   
+}
+.header{
+    background-color: rgba(0, 0,0, 0.4);
+    color: white;
+}
+.part1 .logo-box
+{padding: 30px;
+    width: 400px;
+    height: 130px;
+    font-size: 30px;
+    
+}
+.part2 figure img{
+    margin-top: 90px;
+}
+.main .logo-box{
+    background-color: white;
+    margin: 20%;
+    color: black;
+    border: 2px purple dashed;
+    background-color: aliceblue;
+    width: fit-content;
+    border-radius: 2px;
+}
+.main .main-part{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.main .part2{
+    display: flex;
+    justify-content: space-around;
+}
+.main .img-box{
+    border-radius: 4px;
+}
+.align-img{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+img{
+    border-radius: 10%;
+}
+.contact{
+    text-align: center;
+}
+footer{
+    background-color: rgba(0, 0,0, 0.7);
+    color: white;
+    text-align: center;
+}
